@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class faktöriyelss {
+    public static void main(String[] args){
+        System.out.println("bir sayı giriniz:");
+        Scanner scanner = new Scanner(System.in);
+        int faktöriyel = 1;
+        int sayı = scanner.nextInt();
+        for (int i = 1; i<=sayı;i++){
+            faktöriyel *=i;
+            System.out.println("Faktöriyel =" + faktöriyel);
+        }
+    }
+}
